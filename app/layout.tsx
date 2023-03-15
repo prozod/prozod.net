@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import { Manrope } from "@next/font/google";
 import "./globals.css";
 
@@ -13,6 +14,7 @@ export default function RootLayout({
       <head />
       <body className={`${manrope.variable} font-manrope dark:bg-gray-900`}>
         {children}
+        <Analytics />
       </body>
     </html>
   );
