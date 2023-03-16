@@ -52,7 +52,7 @@ function SpotifyCard() {
   return (
     <>
       {isPlaying && (
-        <div className="flex gap-2 text-zinc-900/70 dark:text-white/80 text-sm items-center">
+        <div className="flex gap-2 mb-4 text-zinc-900/70 dark:text-white/80 text-sm items-center">
           <Image
             src="/project-icons/spotify.svg"
             width={16}

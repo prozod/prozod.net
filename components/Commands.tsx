@@ -35,11 +35,13 @@ const CommandMenu = () => {
   }, []);
 
   let themePickingConditions =
-    theme === "system"
-      ? preferredSystemColorScheme
-      : theme === "dark"
-      ? "light"
-      : "dark";
+    theme === "system" && preferredSystemColorScheme == "light"
+      ? "dark"
+      : theme == "light"
+      ? "dark"
+      : "light";
+
+  console.log(theme, themePickingConditions, preferredSystemColorScheme);
 
   return (
     <Transition
@@ -122,6 +124,7 @@ const CommandMenu = () => {
                   value="system"
                   onSelect={(v) => {
                     setTheme(v);
+                    setPreferredSystemColorScheme(v);
                     setOpen(false);
                   }}
                 >

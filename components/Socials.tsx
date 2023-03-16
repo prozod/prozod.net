@@ -2,8 +2,8 @@ import {
   EnvelopeClosedIcon,
   GitHubLogoIcon,
   LinkedInLogoIcon,
+  TwitterLogoIcon,
 } from "@radix-ui/react-icons";
-import { IconBrandGithub, IconMail } from "@tabler/icons-react";
 
 export const socials = [
   {
@@ -25,6 +25,13 @@ export const socials = [
     url: "https://www.linkedin.com/in/andreaswolff96/",
     icon: (
       <LinkedInLogoIcon className="transition-all opacity-60 hover:opacity-100 w-6 h-auto hover:text-blue-400 " />
+    ),
+  },
+  {
+    name: "Twitter",
+    url: "https://twitter.com/iamprozod",
+    icon: (
+      <TwitterLogoIcon className="transition-all opacity-60 hover:opacity-100 w-6 h-auto hover:text-blue-300 " />
     ),
   },
 ];
