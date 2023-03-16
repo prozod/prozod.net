@@ -1,8 +1,15 @@
+import CommandMenu from "@/components/Commands";
+import { Providers } from "@/components/Provider";
+import { JetBrains_Mono, Manrope } from "@next/font/google";
 import { Analytics } from "@vercel/analytics/react";
-import { Manrope } from "@next/font/google";
 import "./globals.css";
 
 const manrope = Manrope({ subsets: ["latin"], variable: "--font-manrope" });
+const jetbrains = JetBrains_Mono({
+  subsets: ["latin"],
+  weight: ["400"],
+  variable: "--font-jetbrains",
+});
 
 export default function RootLayout({
   children,
@@ -12,8 +19,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head />
-      <body className={`${manrope.variable} font-manrope dark:bg-gray-900`}>
-        {children}
+      <body
+        className={`${manrope.variable} ${jetbrains.variable} font-manrope`}
+      >
+        <Providers>
+          <CommandMenu />
+          {children}
+        </Providers>
         <Analytics />
       </body>
     </html>

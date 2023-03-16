@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Spotify Web Player | Reconstructed",
+    "details": "A simple Spotify Web Player, including state management, Spotify API endpoints. It requires Spotify Premium for the Web Playback SDK to work, without it some features won't work.",
+    "logo": "/project-icons/spotify.svg",
+    "year": 2023,
+    "url": ""
+  },
+  {
+    "name": "Quicktools | Task Tracker",
+    "details": "Web application with full authentication and a personal canvas on which you can store boards and tasks. There are priority tabs, deadline dates, drag & drop, and task descriptions. ",
+    "logo": "/project-icons/qtkanban.png",
+    "year": 2022,
+    "url": "https://tasks.quicktools.co/signin"
+  },
+  {
+    "name": "MovieHunt | Movie Search Engine",
+    "details": "Are you a cinephile? Then this is for you! Trending movies & TV Series charts plus the ability to search for movies, look at the trailers, check their rating and plot.",
+    "logo": "/project-icons/moviehunt.svg",
+    "year": 2021,
+    "url": "https://moviehunttt.netlify.app/"
+  },
+  {
+    "name": "Discord Bot | Cryptocurrency information & conversion",
+    "details": "A simple Discord bot I made for a Discord server, it converts crypto to fiat and shows cryptocurrency information. In order to make it run, you will need to add your own Discord Client ID, Guild ID, Token and Coinmarketcap API Key in an environment variable file.",
+    "logo": "/project-icons/cryptobot.webp",
+    "year": 2021,
+    "url": " https://github.com/prozod/cryptonite-discord"
+  }
+]
