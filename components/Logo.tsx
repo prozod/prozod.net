@@ -11,7 +11,7 @@ function Logo() {
         className="aspect-square"
       />
 
-      <p className="text-xs opacity-20 text-center">
+      <p className="invisible lg:visible text-xs opacity-20 text-center">
         Press ⌘K to open the menu
       </p>
     </div>

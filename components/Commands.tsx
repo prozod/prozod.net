@@ -41,16 +41,14 @@ const CommandMenu = () => {
       ? "dark"
       : "light";
 
-  console.log(theme, themePickingConditions, preferredSystemColorScheme);
-
   return (
     <Transition
       show={open}
       appear={true}
-      enter="transition-opacity duration-500"
+      enter="transition-opacity duration-250"
       enterFrom="opacity-0"
       enterTo="opacity-100"
-      leave="transition-opacity duration-500"
+      leave="transition-opacity duration-250"
       leaveFrom="opacity-100"
       leaveTo="opacity-0"
     >
@@ -64,10 +62,10 @@ const CommandMenu = () => {
         className="bg-coal-900/30 dark:bg-coal-900/50 backdrop-blur-[1.5px] z-10 fixed inset-0 w-full h-full"
       >
         <Transition.Child
-          enter="transition-opacity duration-500"
+          enter="transition-opacity duration-250"
           enterFrom="opacity-0"
           enterTo="opacity-100"
-          leave="transition-opacity duration-500"
+          leave="transition-opacity duration-250"
           leaveFrom="opacity-100"
           leaveTo="opacity-0"
         >
