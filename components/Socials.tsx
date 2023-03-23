@@ -1,4 +1,5 @@
 import {
+  CubeIcon,
   EnvelopeClosedIcon,
   GitHubLogoIcon,
   LinkedInLogoIcon,
@@ -34,13 +35,20 @@ export const socials = [
       <TwitterLogoIcon className="transition-all opacity-60 hover:opacity-100 w-6 h-auto hover:text-blue-300 " />
     ),
   },
+  {
+    name: "Codepen",
+    url: "https://codepen.io/prozod",
+    icon: (
+      <CubeIcon className="transition-all opacity-60 hover:opacity-100 w-6 h-auto dark:hover:text-white " />
+    ),
+  },
 ];
 
 function Socials() {
   return (
     <section className="flex gap-4 py-4 [&>*]:transition-all [&>*]:cursor-pointer">
       {socials.map((social) => (
-        <a href={social.url} key={social.name}>
+        <a href={social.url} key={social.name} target="_blank" rel="noreferrer">
           {social.icon}
         </a>
       ))}
