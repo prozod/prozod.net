@@ -4,14 +4,13 @@ export default function Page() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        My Portfolio
+        Andreas Wolff <span className="ml-2 font-normal text-xl text-sky-400">[ prozod ]</span>
       </h1>
       <p className="mb-4">
-        {`I'm a Vim enthusiast and tab advocate, finding unmatched efficiency in
-        Vim's keystroke commands and tabs' flexibility for personal viewing
-        preferences. This extends to my support for static typing, where its
-        early error detection ensures cleaner code, and my preference for dark
-        mode, which eases long coding sessions by reducing eye strain.`}
+        I thrive on the process of creating projects that serve a purpose—solution which people can integrate into their lives or workflows to make things more efficient, enjoyable, or accessible. It is all about crafting something meaningful that resonates with others.
+      </p>
+      <p>
+        My main areas of interest include tech startups, compilers, formal languages, programming languages, and automata theory. I enjoy exploring the intricate details of how things work and finding ways to build better tools for developers and end-users alike.
       </p>
       <div className="my-8">
         <BlogPosts />
