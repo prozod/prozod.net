@@ -12,9 +12,11 @@ export default function Page() {
       <p>
         My main areas of interest include tech startups, compilers, formal languages, programming languages, and automata theory. I enjoy exploring the intricate details of how things work and finding ways to build better tools for developers and end-users alike.
       </p>
-      <div className="my-8">
+      <div className="w-full mt-10 bg-neutral-800 h-[0.5px]"></div>
+      <div className="my-10">
         <BlogPosts />
       </div>
+      <div className="w-full  bg-neutral-800 h-[0.5px]"></div>
     </section>
   )
 }
