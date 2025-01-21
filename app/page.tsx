@@ -10,7 +10,7 @@ export default function Page() {
         I thrive on the process of creating projects that serve a purpose—solution which people can integrate into their lives or workflows to make things more efficient, enjoyable, or accessible. It is all about crafting something meaningful that resonates with others.
       </p>
       <p>
-        My main areas of interest include tech startups, compilers, formal languages, programming languages, and automata theory. I enjoy exploring the intricate details of how things work and finding ways to build better tools for developers and end-users alike.
+        My main areas of interest include tech startups, compiler internals and language specifications. I enjoy exploring the intricate details of how things work and finding ways to build better tools for developers and end-users alike.
       </p>
       <div className="w-full mt-10 bg-neutral-800 h-[0.5px]"></div>
       <div className="my-10">
